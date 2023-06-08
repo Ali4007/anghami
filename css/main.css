@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    height:1200px;
+}
+/* ------header----- */
+.header{
+    width: 90%;
+    margin-left: 5%;
+}
+.header .navbar-brand{
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-toggler{
+    border:none 0px;
+
+}
+/* --------main------- */
+main{
+    
+    text-align:center
+
+}
+main img{
+width: 80%;
+margin-left:10%;
+margin-bottom:50px;
+font-family: sans-serif;
+}
+main h1{
+    font-size:80px;
+    font-weight: 900;
+    margin-bottom:50px;
+}
+main p{
+    font-size: 25px;
+    font-family: "Epilogue", sans-serif;
+    color: hsl(0, 0%, 41%);
+    margin-bottom:50px;
+
+}
+main .btn{
+    width: 30%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom:50px;
+}
+main .btn:hover{
+    background-color: white;
+    color: black;
+}
+main .caption{
+    display:flex;
+    justify-content: center;
+}
+main .caption img{
+    max-width: 20%;
+    margin:10px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 80px;
+}
+
